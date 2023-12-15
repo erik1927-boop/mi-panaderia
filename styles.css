@@ -1,0 +1,61 @@
+/* Estilos generales */
+
+/* Configuración general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;  /* Tipo de fuente para el texto en la página */
+    margin: 0;  /* Elimina el margen exterior del cuerpo de la página */
+    padding: 0; /* Elimina el relleno interior del cuerpo de la página */
+    background-color: #f4f4f4; /* Establece un color de fondo para el cuerpo */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ec920c;  /* Color de fondo del encabezado */
+    color: #fcfafa;  /* Color del texto en el encabezado */
+    padding: 20px;  /* Espaciado interno del encabezado */
+}
+
+header h1 {
+    margin: 0;  /* Elimina el margen superior e inferior del título h1 en el encabezado */
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style: none;  /* Elimina los marcadores de lista de la barra de navegación */
+
+    padding: 0;  /* Elimina el relleno de la lista no ordenada */
+
+}
+
+nav ul li {
+    
+    display: inline;  /* Hace que los elementos de la lista se muestren en línea (uno al lado del otro) */
+      /* Establece un margen derecho entre los elementos de la lista */
+    margin-right: 155px;
+
+}
+
+nav ul li a {
+    color: #fff;  /* Color del texto de los enlaces en la barra de navegación */
+    text-decoration: none;  /* Elimina la decoración de subrayado de los enlaces */
+}
+
+/* Estilos para las secciones de contenido */
+section {
+    padding: 0px;  /* Espaciado interno para las secciones de contenido */
+}
+
+/* Estilos específicos para la panadería */
+
+/* Estilos para los títulos de las secciones */
+section h2 {
+    color: #333;  /* Color del texto de los títulos de las secciones */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #ec920c;  /* Color de fondo del pie de página */
+    color: #f2f8f8;  /* Color del texto en el pie de página */
+    text-align: center;  /* Alineación del texto al centro en el pie de página */
+    padding: 10px;  /* Espaciado interno en el pie de página */
+}
